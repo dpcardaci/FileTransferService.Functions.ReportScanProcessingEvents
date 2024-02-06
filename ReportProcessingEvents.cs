@@ -66,6 +66,7 @@ namespace FileTransferService.Functions.ReportProcessingEvents
                 {
                     id = transferInfo.TransferId.Value.ToString(),
                     OriginatingUserPrincipalName = transferInfo.OriginatingUserPrincipalName,
+                    OnBehalfOfUserPrincipalName = transferInfo.OnBehalfOfUserPrincipalName,
                     OriginationDateTime = transferInfo.OriginationDateTime,
                     TransferId = transferInfo.TransferId
                 };
